@@ -1,17 +1,10 @@
 .App {
   text-align: center;
-}
+  font-family: 'Qahiri', sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -39,9 +32,9 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-    line-height: 1.6;
+    line-height: 2.5;
     color: #4f4f4f;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     box-sizing: border-box;
     border-style: double;
@@ -54,7 +47,7 @@
   -webkit-box-direction: normal;
   list-style: none;
   text-decoration: none;
-  color: #4f4f4f;
+  color: #915f5f;
   padding: 10px;
 }
 
@@ -152,4 +145,5 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  
 }
