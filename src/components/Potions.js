@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import PotionsCard from "./PotionsCard";
 
-
-function Potions(){
+function Potions(potions, requesting){
 
 
     return (
@@ -13,6 +13,7 @@ function Potions(){
         <div className="Potions">
 
         </div>
+        {requesting ? <div></div> : potions.map(potion => <PotionsCard potion={potion}/>) } 
         </>
     )
 };
